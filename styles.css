@@ -41,3 +41,23 @@ nav img {
   padding: 8px 12px;
   position: relative;
 }
+
+.navbar ul li a{
+  color: #f44336;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar ul li::after{
+  content: '';
+  width: 0%;
+  height: 5px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+}
