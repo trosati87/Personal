@@ -7,7 +7,7 @@
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: url(images/lake.jpg);
+  background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(images/lake.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
