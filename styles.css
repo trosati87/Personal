@@ -98,24 +98,26 @@ nav img {
   cursor: pointer;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
   border: 1px solid #f44336;
   background: #f44336;
   transition: 1s;
 }
 
-nav .fa{
+nav .fa {
   display: none;
 }
 
-@media(max-width: 700px){
-  .text-box h1{
+@media(max-width: 700px) {
+  .text-box h1 {
     font-size: 20px;
   }
-  .navbar ul li{
+
+  .navbar ul li {
     display: block;
   }
-  .navbar{
+
+  .navbar {
     position: absolute;
     background: #fff;
     height: 100vh;
@@ -126,33 +128,34 @@ nav .fa{
     z-index: 2;
     transition: 1s;
   }
-  nav .fa{
+
+  nav .fa {
     display: block;
     color: #000000;
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
   }
-  .navbar ul{
+
+  .navbar ul {
     padding: 30px;
   }
 }
 
 /*------------Portfolio---------*/
-
-.work{
+.work {
   width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 70px;
 }
 
-.work h1{
+.work h1 {
   font-size: 36px;
   font-weight: 600;
 }
 
-.work p{
+.work p {
   color: #777;
   font-size: 18px;
   font-weight: 300;
@@ -160,13 +163,13 @@ nav .fa{
   padding: 10px;
 }
 
-.row{
+.row {
   margin-top: 4%;
   display: flex;
   justify-content: space-between;
 }
 
-.work-col{
+.work-col {
   flex-basis: 45%;
   background: none;
   border-radius: 15px;
@@ -175,24 +178,81 @@ nav .fa{
   box-sizing: border-box;
 }
 
-.work-col img{
+.work-col img {
   width: 100%;
   border-radius: 10px;
 }
 
-h3{
+h3 {
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
 }
 
-.work-col img:hover{
+.work-col img:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 255, 0.9);
 }
 
 @media (max-width: 700px) {
-  .row{
+  .row {
     flex-direction: column;
   }
+}
 
+/*--------About Me---------*/
+
+.about{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.about p{
+  padding-top: 10px;
+}
+
+.about-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-col img {
+  width: 100%;
+  display: block;
+  padding-bottom: 0px;
+}
+
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.layer:hover {
+  background: rgba(0, 0, 255, 0.2);
+}
+
+.layer h3{
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  bottom: 10%;
+  left: 50%
+  transform: translateX(-50%);
+  position: absolute;
+  transition: 0.4s;
+}
+
+.layer:hover h3{
+  bottom: 45%;
+  opacity: 1;
 }

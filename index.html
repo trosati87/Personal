@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
     rel="stylesheet">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <nav>
       <a href="index.html"><img src="images/Rosati-logo.png"></a>
       <div class="navbar" id="navLinks">
-        <i class= "fa fa-times" onclick="hideMenu()"></i>
+        <i class="fa fa-times" onclick="hideMenu()"></i>
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">About Me</a></li>
@@ -30,20 +30,20 @@
 
     </nav>
 
-  <div class="text-box">
-    <h1>Hello, I'm Thomas Rosati</h1>
-    <p>Welcome to my portfolio. I'm Web Developer with a background in Art and Design.<br><b>In other words, I went to art school and returned a developer.</b></p><br>
-    <a href="" class="hero-btn">View My Work</a>
+    <div class="text-box">
+      <h1>Hello, I'm Thomas Rosati</h1>
+      <p>Welcome to my portfolio. I'm Web Developer with a background in Art and Design.<br><b>In other words, I went to art school and returned a developer.</b></p><br>
+      <a href="" class="hero-btn">View My Work</a>
 
-  </div>
+    </div>
 
   </section>
 
-<!---------Portfolio ------------->
+  <!---------Portfolio ------------->
 
   <section class="work">
     <h1>This is my Portfolio</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+    <p>Hi, Welcome to my page. Feel free to browse the various projects I've been a part of. As you can see, I've done work for both print and for web.</p>
 
     <div class="row">
       <div class="work-col">
@@ -55,11 +55,39 @@
         <h3>Graphic Design</h3>
         <img src="images/space.jpg" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+  </section>
+
+  <!---------About Me ------------->
+
+  <section class="about">
+    <h1>A Little About Me</h1>
+    <p>Aside from loving all things design, I have a few hobbies and interests as well.</p>
+
+    <div class="row">
+      <div class="about-col">
+        <img src="images/Bentley_1.jpg" alt="">
+        <div class="layer">
+          <h3>My Dog</h3>
+        </div>
+        <p>This is Bentley, RIP Buddy</p>
+      </div>
+      <div class="about-col">
+        <img src="images/Boat_1.jpg" alt="">
+        <div class="layer">
+          <h3>My Boat</h3>
+        </div>
+        <p>Nothing like a sunset cruise with dad</p>
+      </div>
+      <div class="about-col">
+        <img src="images/Pilot_1.jpg" alt="">
+        <div class="layer">
+          <h3>My Plane</h3>
+        </div>
+        <p>My lifetime dream is to get my PPL!</p>
+      </div>
 
     </div>
-
-
-
 
   </section>
 
@@ -72,21 +100,18 @@
 
 
 
-
-
-<!----------Javascript for Toggle Menu------->
+  <!----------Javascript for Toggle Menu------->
 
   <script type="text/javascript">
-      var navLinks = document.getElementById("navLinks");
+    var navLinks = document.getElementById("navLinks");
 
-      function showMenu(){
-        navLinks.style.right = "0";
-      }
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
 
-      function hideMenu(){
-        navLinks.style.right = "-200px";
-      }
-
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
   </script>
 
 </body>
