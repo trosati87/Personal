@@ -200,15 +200,18 @@ h3 {
 }
 
 /*--------About Me---------*/
-
-.about{
+.about {
   width: 80%;
   margin: auto;
   text-align: center;
   padding-top: 30px;
 }
 
-.about p{
+.about p {
+  color: #777;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
   padding-top: 10px;
 }
 
@@ -240,19 +243,62 @@ h3 {
   background: rgba(0, 0, 255, 0.2);
 }
 
-.layer h3{
+.layer h3 {
   width: 100%;
   font-weight: 500;
   color: #fff;
   font-size: 20px;
   bottom: 5%;
-  left: 50%
+  left: 50%;
   transform: translateX(-50%);
   position: absolute;
   transition: 0.4s;
 }
 
-.layer:hover h3{
+.layer:hover h3 {
   bottom: 45%;
   opacity: 1;
+}
+
+/*--------Places I've Lived---------*/
+.places {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.places p{
+  color: #777;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding-top: 10px;
+}
+
+.places-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.places-col img {
+  width: 100%;
+  height: 75%;
+  border-radius: 10px;
+}
+
+.places-col p {
+  color: #777;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 0;
+}
+
+.places-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: center;
 }
