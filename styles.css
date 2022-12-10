@@ -210,6 +210,9 @@ h3 {
 
 .about p{
   padding-top: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #777;
 }
 
 .about-col {
